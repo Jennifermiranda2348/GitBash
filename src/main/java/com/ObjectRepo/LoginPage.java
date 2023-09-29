@@ -5,9 +5,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.hrm.genericUtils.WebdriverUtility;
+import com.GenericUtility.WebDriverUtility;
 
-public class LoginPage extends WebdriverUtility {
+
+public class LoginPage extends WebDriverUtility {
 	//declaration
 	@FindBy(name="hr_email")
 	private WebElement UserName;

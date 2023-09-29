@@ -6,11 +6,12 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.hrm.genericUtils.WebdriverUtility;
+import com.GenericUtility.WebDriverUtility;
+
 
 public class HRHDashboardPage {
 	WebDriver driver;
-	WebdriverUtility wLib = new WebdriverUtility();
+	WebDriverUtility wLib = new WebDriverUtility();
 	//Add admin
 	
 	@FindBy(xpath="//p[contains(text(),'ADMIN')]")
